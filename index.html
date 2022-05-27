@@ -1,85 +1,100 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="UTF-8"/>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="./public/style.css"/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./public/style.css" />
     <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-            crossorigin="anonymous"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
     />
     <title>Document</title>
-</head>
-<body class="container bg-dark">
-<!--Header section-->
-<header>
-    <div id="titleCard" class="card card-body text-center m-5">
+  </head>
+  <body class="container bg-dark">
+    <!--Header section-->
+    <header>
+      <div id="titleCard" class="card card-body text-center m-5">
         <h1>Pièces à Imprimer pour drone FPV</h1>
-    </div>
-</header>
-<!--Body section-->
-<section>
-    <!--Support RX-->
-    <div class="d-flex flex-column justify-content-center align-items-center">
+      </div>
+    </header>
+    <!--Body section-->
+    <section>
+      <!--Support RX-->
+      <div class="d-flex flex-column justify-content-center align-items-center">
         <h2 class="text-light">Support d'antenne standart type lollypop</h2>
         <video
-                width="800"
-                height="300"
-                controls
-                src="./assets/Antenna-FPV_2022-Apr-07_03-38-13PM-000_CustomizedView13263695413_mp4.mp4">
-
-        </video>
+          width="800"
+          height="300"
+          controls
+          src="./assets/Antenna-FPV_2022-Apr-07_03-38-13PM-000_CustomizedView13263695413_mp4.mp4"
+        ></video>
         <div>
-            <a class="btn btn-primary m-3" href="./Antenna-FPV.html">Vu panoramique</a>
-            <a class="btn btn-success" rel="stylesheet"
-               href="./assets/stl/Antenna-FPV v3.stl">Download STL</a>
+          <a class="btn btn-primary m-3" href="./Antenna-FPV.html"
+            >Vu panoramique</a
+          >
+          <a
+            class="btn btn-success"
+            rel="stylesheet"
+            href="./assets/stl/Antenna-FPV v3.stl"
+            >Download STL</a
+          >
         </div>
-    </div>
-    <hr/>
-    <!--Support GoPro 1-->
-    <div class="d-flex flex-column justify-content-center align-items-center">
+      </div>
+      <hr />
+      <!--Support GoPro 1-->
+      <div class="d-flex flex-column justify-content-center align-items-center">
         <h2 class="text-light">Support GoPro</h2>
         <video
-                width="800"
-                height="300"
-                controls
-                src="./assets/FPV-support_2022.mp4">
-        </video>
+          width="800"
+          height="300"
+          controls
+          src="./assets/FPV-support_2022.mp4"
+        ></video>
         <div>
-            <a class="btn btn-primary m-3" href="./FPV-support.html">Vu panoramique</a>
-            <a class="btn btn-success" href="./assets/stl/FPV-support v3-perso.stl">Download STL</a>
+          <a class="btn btn-primary m-3" href="./FPV-support.html"
+            >Vu panoramique</a
+          >
+          <a
+            class="btn btn-success"
+            href="./assets/stl/FPV-support v3-perso.stl"
+            >Download STL</a
+          >
         </div>
-    </div>
-    <hr/>
-    <!--Support GoPro 2-->
-    <div class="d-flex flex-column justify-content-center align-items-center">
+      </div>
+      <hr />
+      <!--Support GoPro 2-->
+      <div class="d-flex flex-column justify-content-center align-items-center">
         <h2 class="text-light">Support GoPro 2</h2>
         <video
-                width="800"
-                height="300"
-                controls
-                src="./assets/support_GoPro-2.mp4">
-        </video>
+          width="800"
+          height="300"
+          controls
+          src="./assets/support_GoPro-2.mp4"
+        ></video>
         <div>
-            <a class="btn btn-primary m-3"
-               href="./assets/support_GoPro-2_2022.html">Vu panoramique</a>
-            <a class="btn btn-success" href="./assets/stl/support_GoPro-2 v3.stl"
-            >Download STL</a>
+          <a
+            class="btn btn-primary m-3"
+            href="./assets/support_GoPro-2_2022.html"
+            >Vu panoramique</a
+          >
+          <a class="btn btn-success" href="./assets/stl/support_GoPro-2 v3.stl"
+            >Download STL</a
+          >
         </div>
-    </div>
-</section>
-<!--Script Bootstrap-->
-<script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"
-></script>
-<!--gsap-->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-<!--script main-->
-<script type="module" src="./js/main.js"></script>
-</body>
+      </div>
+    </section>
+    <!--Script Bootstrap-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!--gsap-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <!--script main-->
+    <script type="module" src="./js/main.js"></script>
+  </body>
 </html>
